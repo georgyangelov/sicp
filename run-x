@@ -1,0 +1,7 @@
+#!/bin/sh
+
+X_INTERPRETER_DIR="../x-interpreter"
+
+./x "$X_INTERPRETER_DIR" \
+    chapter_1/exercises.x \
+    $@
